@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/nipunthathsara/i3-prep#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "mongoose": "^4.5.8"
+    "method-override": "^2.3.6",
+    "mongoose": "^4.5.8",
+    "morgan": "^1.7.0"
   }
 }
