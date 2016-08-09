@@ -1,0 +1,23 @@
+{
+  "name": "meanpilot",
+  "version": "1.0.0",
+  "description": "pilot project for mean",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nipunthathsara/i3-prep.git"
+  },
+  "author": "nipun thathsara, pamodya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nipunthathsara/i3-prep/issues"
+  },
+  "homepage": "https://github.com/nipunthathsara/i3-prep#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.5.8"
+  }
+}
