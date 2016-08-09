@@ -2,7 +2,7 @@
   "name": "meanpilot",
   "version": "1.0.0",
   "description": "pilot project for mean",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +21,8 @@
     "express": "^4.14.0",
     "method-override": "^2.3.6",
     "mongoose": "^4.5.8",
-    "morgan": "^1.7.0"
+    "morgan": "^1.7.0",
+    "lodash": "^4.14.0",
+    "node-restful": "^0.2.5"
   }
 }
