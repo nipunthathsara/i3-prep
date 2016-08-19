@@ -1,7 +1,7 @@
 {
-  "name": "meanpilot",
+  "name": "i3-prep(revised)",
   "version": "1.0.0",
-  "description": "pilot project for mean",
+  "description": "mean login",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/nipunthathsara/i3-prep.git"
   },
-  "author": "nipun thathsara, pamodya",
+  "author": "nipun",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nipunthathsara/i3-prep/issues"
@@ -18,11 +18,14 @@
   "homepage": "https://github.com/nipunthathsara/i3-prep#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "crypto": "0.0.3",
     "express": "^4.14.0",
+    "express-jwt": "^3.4.0",
+    "jsonwebtoken": "^7.1.9",
     "method-override": "^2.3.6",
-    "mongoose": "^4.5.8",
+    "mongoose": "^4.5.9",
     "morgan": "^1.7.0",
-    "lodash": "^4.14.0",
-    "node-restful": "^0.2.5"
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
   }
 }
